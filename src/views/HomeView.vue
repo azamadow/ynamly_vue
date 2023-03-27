@@ -1,16 +1,10 @@
 <template>
   <div class="home">
     <section class="hero is-medium mb-6">
-      <div class="surat">
-        <div class="hero-body has-text-centered">
-          <p class="title mb-6">
 
-          </p>
-          <p class="subtitle">
+        <img src="../assets/ynamly.png" alt="ynamly.png">
 
-          </p>
-        </div>
-      </div>
+
     </section>
 
     <div class="columns is-multiline">
@@ -65,13 +59,8 @@ export default {
 </script>
 
 <style scoped>
-.surat {
-  background-repeat: unset;
-  background-size: cover;
-  background-image: url('../assets/ynamly.png');
+img {
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: auto;
 }
 </style>
 
